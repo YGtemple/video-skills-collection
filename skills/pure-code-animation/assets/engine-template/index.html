@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<title>AI 大战验证码</title>
+<style>
+  @font-face { font-family:'ZCOOL'; src:url('fonts/ZCOOLQingKeHuangYou.ttf') format('truetype'); font-display:block; }
+  @font-face { font-family:'ZhiMang'; src:url('fonts/ZhiMangXing.ttf') format('truetype'); font-display:block; }
+  @font-face { font-family:'MarkerF'; src:url('fonts/PermanentMarker.ttf') format('truetype'); font-display:block; }
+  @font-face { font-family:'AntonF'; src:url('fonts/Anton.ttf') format('truetype'); font-display:block; }
+  html,body { margin:0; padding:0; background:#000; overflow:hidden; }
+  #stage { width:1920px; height:1080px; display:block; }
+  text { user-select:none; }
+</style>
+</head>
+<body>
+<svg id="stage" viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg"
+     preserveAspectRatio="xMidYMid meet">
+  <!-- 全部内容由 render.js 在加载时一次性建好 -->
+</svg>
+<script src="timeline.js"></script>
+<script src="render.js"></script>
+</body>
+</html>

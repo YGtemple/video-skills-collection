@@ -1,0 +1,27 @@
+{
+  "name": "code-animation-playbook",
+  "version": "1.0.0",
+  "description": "纯代码动画流水线：HTML+SVG+JS 画画面，无头 Chromium 逐帧渲染，Python 合成声音，ffmpeg 合成 MP4。不依赖任何生成式模型。",
+  "main": "render.js",
+  "scripts": {
+    "render": "node render_frames.js",
+    "sfx": "python3 sfx.py",
+    "metrics": "python3 metrics.py",
+    "encode": "bash encode.sh",
+    "all": "node render_frames.js && python3 sfx.py && python3 metrics.py && bash encode.sh"
+  },
+  "keywords": [
+    "animation",
+    "svg",
+    "playwright",
+    "ffmpeg",
+    "procedural",
+    "motion-graphics",
+    "code-art"
+  ],
+  "author": "YGtemple",
+  "license": "MIT",
+  "dependencies": {
+    "playwright-core": "^1.63.0"
+  }
+}

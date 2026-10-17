@@ -1,0 +1,4 @@
+interface:
+  display_name: "剧本创作工作室"
+  short_description: "从剧本开发到 AI 分镜、Seedance 提示词和后期配乐"
+  default_prompt: "使用 $script-writing-studio，根据我已有的材料完成当前需要的剧本、台词、资产、分镜、视频提示词或后期声音任务。"

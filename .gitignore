@@ -1,0 +1,13 @@
+﻿# 缓存
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+
+# 编辑器和 IDE
+.vscode/
+.idea/
+*.swp
+
+# 大文件（如需可自行移除）
+# *.mp4

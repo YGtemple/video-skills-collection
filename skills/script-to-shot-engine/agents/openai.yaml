@@ -1,0 +1,4 @@
+interface:
+  display_name: "Script-to-Shot Engine"
+  short_description: "Turn scripts and existing assets into shot-by-shot video prompts."
+  default_prompt: "Use $script-to-shot-engine to turn my script and existing art assets into a shot-by-shot video prompt."

@@ -1,0 +1,31 @@
+# ---- 依赖 ----
+node_modules/
+
+# ---- 逐帧渲染产物（2.5GB，不入库；用 npm run render 重新生成）----
+frames/
+
+# ---- 音频 / 视频产物（大文件，不入库；用 npm run sfx / npm run encode 生成）----
+*.wav
+*.mp4
+
+# ---- Python ----
+__pycache__/
+*.pyc
+
+# ---- 诊断 / 质检过程文件 ----
+diag/
+qc/
+diag.js
+chk.js
+
+# ---- 日志 ----
+*.log
+render_*.txt
+encode_*.txt
+*_log*.txt
+
+# ---- 系统/编辑器 ----
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
